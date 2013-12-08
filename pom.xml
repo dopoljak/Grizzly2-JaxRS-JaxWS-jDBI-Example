@@ -1,0 +1,96 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.ilirium.grizzly</groupId>
+  <artifactId>Grizzly2JaxRSJaxWSjDBIExample</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+      
+    <dependency>
+        <groupId>com.h2database</groupId>
+        <artifactId>h2</artifactId>
+        <version>1.3.174</version>
+    </dependency>
+        
+    <dependency>
+        <groupId>org.jdbi</groupId>
+        <artifactId>jdbi</artifactId>
+        <version>2.51</version>
+    </dependency>
+
+    <dependency>
+        <groupId>com.fasterxml.jackson.jaxrs</groupId>
+        <artifactId>jackson-jaxrs-json-provider</artifactId>
+        <version>2.3.0</version>
+    </dependency>
+    
+    <dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>javax.servlet-api</artifactId>
+        <version>3.1.0</version>
+    </dependency>
+    
+    <dependency>
+        <groupId>org.glassfish.grizzly</groupId>
+        <artifactId>grizzly-http-server-jaxws</artifactId>
+        <version>2.3.7</version>
+    </dependency>
+
+    <dependency>
+	<groupId>org.glassfish.jersey.core</groupId>
+	<artifactId>jersey-common</artifactId>
+	<version>2.4.1</version>
+    </dependency>
+
+    <dependency>
+	<groupId>org.glassfish.jersey.core</groupId>
+	<artifactId>jersey-server</artifactId>
+    	<version>2.4.1</version>
+    </dependency>
+
+    <dependency>
+	<groupId>org.glassfish.jersey.core</groupId>
+	<artifactId>jersey-client</artifactId>
+	<version>2.4.1</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.glassfish.jersey.containers</groupId>
+        <artifactId>jersey-container-grizzly2-http</artifactId>
+        <version>2.4.1</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.glassfish.jersey.containers</groupId>
+        <artifactId>jersey-container-grizzly2-servlet</artifactId>
+        <version>2.4.1</version>
+    </dependency>
+    
+    <dependency>
+        <groupId>ch.qos.logback</groupId>
+        <artifactId>logback-core</artifactId>
+        <version>1.0.13</version>
+    </dependency>
+    
+    <dependency>
+        <groupId>ch.qos.logback</groupId>
+        <artifactId>logback-classic</artifactId>
+        <version>1.0.13</version>
+    </dependency>
+    
+    <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-api</artifactId>
+        <version>1.7.5</version>
+    </dependency>
+    
+  </dependencies>
+  
+</project>
